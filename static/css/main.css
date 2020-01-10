@@ -6,11 +6,3 @@ body, html, .full-page {
 .white-smoke-background {
     background-color: whitesmoke;
 }
-
-.black-text-75 {
-    color: rgba(0, 0, 0, .75);
-}
-
-.black-text-50 {
-    color: rgba(0, 0, 0, .50);
-}
