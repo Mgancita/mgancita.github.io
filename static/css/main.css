@@ -1,8 +1,95 @@
 body, html, .full-page {
     height: 100%;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Gelasio', serif;;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.list-inline-item a:hover {
+    color: rgba(200, 200, 200, .5);
+}
+
+.social-icons a {
+    color: rgb(14, 143, 207);
+}
+
+.social-icons i:hover {
+    color: black;
+}
+
+.menu {
+    padding: 20px;
+}
+
+.menu a {
+    color: rgba(0, 0, 0, .75)
+}
+
+i {
+    padding: 5px;
+}
+
+hr {
+  border: 0;
+  clear:both;
+  display:block;
+  width: 96%;
+  background-color:#dbdbdb;
+  height: 1px;
 }
 
 .white-smoke-background {
-    background-color: whitesmoke;
+    background-color: white;
+}
+
+.black-text-75 {
+    color: rgba(0, 0, 0, .75);
+}
+
+.black-text-50 {
+    color: rgba(0, 0, 0, .50);
+}
+
+.icon-size {
+    height: 25px;
+    width: 25px;
+}
+
+.animated.delay-half-second {
+  -webkit-animation-delay: .5s;
+  animation-delay: .5s;
+}
+
+.h-20 {
+    height: 20%;
+}
+
+.h-80 {
+    height: 80%;
+}
+
+.fa {
+    color: rgb(14, 143, 207);
+}
+
+.fab {
+    font-size: 22px;
+    color: rgb(14, 143, 207);
+    font-family: 'font awesome 5 brands';
+}
+}
+
+.horizontal-list li {
+    display: inline;
+}
+
+.one-and-half-second-delay {
+    animation-delay: 1.5s;
 }
