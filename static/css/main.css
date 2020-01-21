@@ -18,6 +18,7 @@ a:hover {
 
 .social-icons a {
     color: rgb(14, 143, 207);
+    margin-left: 14px!important;
 }
 
 .social-icons i:hover {
@@ -25,7 +26,8 @@ a:hover {
 }
 
 .menu {
-    padding: 20px;
+    padding: 0px 0px 0px 21px;
+    margin-bottom: 0px;
 }
 
 .menu a {
@@ -33,7 +35,12 @@ a:hover {
 }
 
 i {
-    padding: 5px;
+    padding: 0px;
+}
+
+.row {
+    margin-left: 0px;
+    margin-right: 0px;
 }
 
 hr {
@@ -43,6 +50,8 @@ hr {
   width: 96%;
   background-color:#dbdbdb;
   height: 1px;
+  margin-top: 8px;
+  margin-bottom: 8px;
 }
 
 .white-smoke-background {
@@ -84,10 +93,11 @@ hr {
     color: rgb(14, 143, 207);
     font-family: 'font awesome 5 brands';
 }
-}
 
 .horizontal-list li {
     display: inline;
+    margin-left: 14px!important;
+    margin-right: 0px!important;
 }
 
 .one-and-half-second-delay {
