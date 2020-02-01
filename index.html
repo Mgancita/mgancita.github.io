@@ -1,75 +1,128 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-	  <title>Marco Gancitano: Data Engineer</title>
-	  
-	  <!-- Required meta tags -->
-	  <meta charset="utf-8">
-	  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	  
-	  <!-- Bootstrap CSS -->
-	  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-	  
-	  <!-- Project CSS -->
-	  <link rel="stylesheet" type="text/css" href="static/css/main.css">
+    <head>
+        <title>Marco Gancitano: Data Engineer</title>
+        
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-	  <!-- Animate CSS -->
-	  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-	  <!-- Google Fonts -->
-	  <link href="https://fonts.googleapis.com/css?family=Gelasio&display=swap" rel="stylesheet">
+        <!-- Project CSS -->
+        <link rel="stylesheet" type="text/css" href="static/css/main.css">
 
-	  <!-- Font Awesome -->
-	  <script src="https://kit.fontawesome.com/eb9d03deea.js" crossorigin="anonymous"></script>
+        <!-- Animate CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+
+        <!-- Google Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Gelasio&display=swap" rel="stylesheet">
 
 	</head>
   
-  <body>
-	  <div class="container-fluid h-100">
-		<div class="row align-items-center h-80">
-			<div class="col-12 text-center">
-				<h1 class="animated fadeIn slow">Hi, I'm Marco Gancitano</h1>
+    <body>
+        <div class="container-fluid h-100" id="top">
+            <div class="row align-items-center h-80 padding-15">
+                <div class="col-12 text-center">
+                    <h1 class="animated fadeIn slow">Hi, I'm Marco Gancitano</h1>
 
-				<h4 class="animated fadeIn slow delay-1s "
-					style="color: rgba(0, 0, 0, .75);">Data Engineer at Bloomberg LP</h4>
+                    <h4 class="animated fadeIn slow delay-1s "
+                        style="color: rgba(0, 0, 0, .75);">Data Engineer at Bloomberg LP</h4>
 
-				<div class="social-icons animated fadeIn delay-1s slow">
-					<a href="https://www.linkedin.com/in/marco-gancitano-240571110/"
-					   target="_blank">
-						<i class="fab fa-linkedin-in"></i>
-					</a>
+                    <div class="social-icons animated fadeIn delay-1s slow">
+                        <a href="https://www.linkedin.com/in/marco-gancitano-240571110/"
+                            target="_blank">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
 
-					<a href="https://www.github.com/mgancita" target="_blank">
-						<i class="fab fa-github"></i>
-					</a>
-					<a href="https://www.kaggle.com/mgancita" target="_blank">
-						<i class="fab fa-kaggle"></i>
-					</a>
-				</div>
-			</div>
-		 </div>
+                        <a href="https://www.github.com/mgancita" target="_blank">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://www.kaggle.com/mgancita" target="_blank">
+                            <i class="fab fa-kaggle"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
 
-		<div class="row align-items-center h-20 mb-0 pb-0 pu-0 animated fadeIn one-and-half-second-delay slow">
-			<hr>
-			<div class="col-12 text-center">
-				<ul class="list-inline menu mb-0 text-center horizontal-list">
-					<li class="list-inline-item">
-						<a class="menu-item" href="#about">About</a>
-					</li>
+            <div class="row align-items-center h-20 animated fadeIn one-and-half-second-delay slow">
+                <hr>
+                <div class="col-12 text-center">
+                    <ul class="list-inline menu mb-0 text-center horizontal-list">
+                        <li class="list-inline-item">
+                            <a class="menu-item" onclick="scrollToElement('about')">About</a>
+                        </li>
 
-					<li class="list-inline-item">
-						<a class="menu-item" href="#projects">Projects</a>
-					</li>
+                        <li class="list-inline-item">
+                            <a class="menu-item" onclick="scrollToElement('projects')">Projects</a>
+                        </li>
 
-					<li class="list-inline-item">
-						<a class="menu-item" href="#contact">Contact</a>
-					</li>
-				</ul>
-			</div>
-			<hr>
-		  </div>
+                        <li class="list-inline-item">
+                            <a class="menu-item" onclick="scrollToElement('contact')">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <hr>
+            </div>
 
-	  </div>
+        </div>
+        
+        <div class="section aux-sections" id="about">
+            <div class="container-fluid">
 
-  </body>
+                <div class="row mb-4 section-header-row">
+                    <div class="col mx-auto text-center">
+                        <h2>About Me</h2>
+                    </div>
+                </div>
+                
+                <div class="row mb-3">
+
+                    <div class="col-4 text-center">
+                        <img class="img-fluid raised_border" src="static/images/avatar.jpg" alt="Picture of Me">
+                    </div>
+
+                    <div class="col-8 align-self-center markdown">
+                        <p>
+                            Hi, I'm <strong>Marco Gancitano</strong>. I'm a data engineer living in Hoboken, New Jersey.
+                        </p>
+
+                        <br>
+
+                        <p>
+                            I am currently Data Engineer at 
+                            <a href="https://www.bloomberg.com/" target="_blank">Bloomberg L.P.</a>
+                            where I get to combine my love for programming, statistics, 
+                            and data analytics. At Bloomberg, I work primarily in 
+                            Python to develop quality control and quality assurance
+                            data pipelines for our products.
+                        </p>
+
+                        <br>
+
+                        <p>
+                            I started at Bloomberg after graduating from Stevens Institute of Technology in 2019 with a B.S. in Quantitative Finance. While at Stevens, I interned as a Trade Assistant at INTL FCStone and a Quantitative Analyst at Marto Capital.
+                        </p>
+                    </div>
+
+                </div>
+
+                <div class="row up-arrow-row">
+                    <div class="col mx-auto text-center">
+                        <a onclick="scrollToElement('top')">
+                            <i class="fas fa-arrow-up fa-lg"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+
+	<!-- Font Awesome -->
+	<script src="https://kit.fontawesome.com/eb9d03deea.js" crossorigin="anonymous"></script>
+
+    <!-- Project JS -->
+    <script type="text/javascript" src="static/js/project.js"></script>
+
 </html>

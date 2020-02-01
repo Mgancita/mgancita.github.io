@@ -12,9 +12,7 @@ a:hover {
     text-decoration: none;
 }
 
-.list-inline-item a:hover {
-    color: rgba(200, 200, 200, .5);
-}
+
 
 .social-icons a {
     color: rgb(14, 143, 207);
@@ -30,8 +28,13 @@ a:hover {
     margin-bottom: 0px;
 }
 
-.menu a {
-    color: rgba(0, 0, 0, .75)
+.menu a:not([href]){
+    color: rgba(0, 0, 0, .75);
+    cursor: pointer;
+}
+
+.menu a:not([href]):hover {
+    color: rgba(200, 200, 200, .5);
 }
 
 i {
@@ -84,10 +87,6 @@ hr {
     height: 80%;
 }
 
-.fa {
-    color: rgb(14, 143, 207);
-}
-
 .fab {
     font-size: 22px;
     color: rgb(14, 143, 207);
@@ -102,4 +101,28 @@ hr {
 
 .one-and-half-second-delay {
     animation-delay: 1.5s;
+}
+
+.section-header-row{
+    padding-left: 21px!important;
+    padding-right: 0px!important;
+}
+
+.up-arrow-row{
+    padding-left: 48px!important;
+    padding-right: 0px!important;
+}
+
+.aux-sections {
+    padding: 36px 24px;
+    margin-bottom: 16px;
+}
+
+.raised_border {
+    border-radius: 6px;
+    box-shadow: 10px 30px 40px rgba(0,0,0,.6);
+}
+
+.markdown p {
+    margin-bottom: 1em;
 }
