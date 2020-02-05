@@ -5,3 +5,7 @@ function scrollToElement(element_id) {
         block: "start"
     });
 }
+
+var today = new Date().toLocaleTimeString(navigator.language, {hour: '2-digit', minute:'2-digit'});
+document.getElementById('time').innerHTML=today;
+

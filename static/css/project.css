@@ -113,8 +113,13 @@ hr {
     padding-right: 0px!important;
 }
 
+.up-arrow-row:hover{
+    color: rgba(0, 0, 0, .75);
+    cursor: pointer;
+}
+
 .aux-sections {
-    padding: 36px 24px;
+    padding: 36px 24px 12px 24px;
     margin-bottom: 16px;
 }
 
@@ -125,4 +130,9 @@ hr {
 
 .markdown p {
     margin-bottom: 1em;
+}
+
+.copyright-claim {
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
