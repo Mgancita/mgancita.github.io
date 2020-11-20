@@ -12,6 +12,9 @@ a:hover {
     text-decoration: none;
 }
 
+.card-link {
+    color: inherit;
+}
 
 
 .social-icons a {
